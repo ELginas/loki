@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.4.5](https://github.com/grafana/loki/compare/v3.4.4...v3.4.5) (2025-07-10)
+
+
+### Bug Fixes
+
+* **frontend:** allow resolution of v6 addresses. (backport release-3.4.x) ([#18260](https://github.com/grafana/loki/issues/18260)) ([93e0880](https://github.com/grafana/loki/commit/93e088034d871cbce5d479413a8fd16f04a02ebe))
+* Handle WAL corruption properly on startup (backport release-3.4.x) ([#18410](https://github.com/grafana/loki/issues/18410)) ([1ecc9e4](https://github.com/grafana/loki/commit/1ecc9e4315d5bb223525b4101c409a169fe8413e))
+* **memberlist:** allow resolution of advertise address from v6 interf… (backport release-3.4.x) ([#18256](https://github.com/grafana/loki/issues/18256)) ([640cd33](https://github.com/grafana/loki/commit/640cd331fe89bbd020e8c2359e1403a85d1f441d))
+
 ## [3.4.4](https://github.com/grafana/loki/compare/v3.4.3...v3.4.4) (2025-06-09)
 
 
